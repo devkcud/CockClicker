@@ -1,0 +1,34 @@
+.container {
+  height: calc(100vh - 40px);
+  max-height: calc(100vh - 40px);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 128px;
+
+  width: 120px;
+  height: 120px;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+
+  background: url('https://image.shutterstock.com/image-illustration/cock-watercolor-600w-459364387.jpg');
+  background-position: -158px -40px;
+  background-size: 320px;
+
+  border: 0;
+  border-radius: 100%;
+
+  box-shadow: 0px 0px 32px 10px #000;
+}
+
+button:hover {
+  transform: scale(1.2);
+}

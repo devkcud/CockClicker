@@ -1,0 +1,65 @@
+.shop {
+  height: calc(100vh - 40px);
+  max-height: calc(100vh - 40px);
+
+  width: 20vh;
+
+  background: #2b2b2b;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: left;
+
+  position: fixed;
+}
+
+.shop h1 {
+  text-align: center;
+  text-decoration: underline overline;
+
+  width: 100%;
+
+  margin-top: 16px;
+}
+
+.shop p {
+  text-align: center;
+}
+
+.shop ul {
+  list-style: none;
+}
+
+.shop ul * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.shop ul li {
+  width: 100%;
+
+  padding: 16px;
+  margin-top: 16px;
+
+  background: #161616;
+}
+
+.shop ul li span {
+  transition: all 0.15s;
+}
+
+.shop ul li span:hover {
+  font-size: large;
+
+  cursor: pointer;
+}
+
+.shop ul li i {
+  font-style: normal;
+}
+
+.shop ul li i#cost {
+  float: right;
+}

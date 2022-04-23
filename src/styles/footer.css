@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+
+  background: #2b2b2b;
+}
+
+.footer * {
+  margin-inline: 16px;
+}
